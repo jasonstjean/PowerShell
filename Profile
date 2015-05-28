@@ -1,0 +1,7 @@
+# Welcome message
+"Powershell-ville just got a new sherrif: " + $env:Username
+
+
+set-Alias npp          "C:\Program Files (x86)\Notepad++\notepad++.exe"
+set-alias edit-profile "npp $profile"
+set-alias sudo         elevate-process
